@@ -16,8 +16,8 @@
                         </a>
                     </div>
                     <div class="col px-4">
-                        <a class="card shadow-sm" href="#">
-                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="#" alt="hipolito"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <a class="card shadow-sm" href="{{ url('hipolito') }}">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="{{ asset('hipolito_ab.jpg') }}" alt="hipolito"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <div class="card-body">
                                 <p class="card-text">Hipolito, Charlene</p>
                                 <div class="d-flex justify-content-between align-items-center">
