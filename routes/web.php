@@ -17,3 +17,7 @@ Route::get('/biography', function() {
 Route::get('/hipolito', function() {
     return view('hipolito');
 });
+
+Route::get('/wong', function() {
+    return view('wong');
+});
