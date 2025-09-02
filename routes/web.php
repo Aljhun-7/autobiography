@@ -13,3 +13,7 @@ Route::get('/index', function() {
 Route::get('/biography', function() {
     return view('biography');
 });
+
+Route::get('/hipolito', function() {
+    return view('hipolito');
+});
