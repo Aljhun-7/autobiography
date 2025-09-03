@@ -21,3 +21,7 @@ Route::get('/hipolito', function() {
 Route::get('/wong', function() {
     return view('wong');
 });
+
+Route::get('/marzan', function() {
+    return view('marzan');
+});
