@@ -32,6 +32,7 @@
         .custom-text {
             color: #F0E5C1;
         }
+        /*main nav*/
         .styled-button {
             position: relative;
             padding: 10px 20px;
@@ -60,6 +61,39 @@
         }
 
         .styled-button:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+        /*sub nav on the biography part*/
+        .sub-styled-button {
+            position: relative;
+            padding: 10px 20px;
+            font-size: 18px;
+            background: none;
+            color: #75000C;
+            border-radius: 5px;
+            cursor: pointer;
+            overflow: hidden;
+            transition: color 0.3s ease;
+        }
+
+        .sub-styled-button::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 3px;
+            background: #75000C;
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+
+        .sub-styled-button:hover {
+            color: #8D261F;
+        }
+
+        .sub-styled-button:hover::after {
             width: 100%;
             left: 0;
         }
@@ -122,9 +156,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link custom-text styled-button px-md-3 ms-md-3" href="{{ url('biography') }}">Autobiography</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-text styled-button px-md-3 ms-md-3" href="{{ url('tableList') }}">Table</a>
         </li>
       </ul>
     </div>
