@@ -1,4 +1,4 @@
-<x-layout>
+<x-navbtn>
 <!DOCTYPE html>
 <html>
 <head>
@@ -83,4 +83,4 @@
 </html>
 </div>
 
-</x-layout>
+</x-navbtn>
