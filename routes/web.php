@@ -25,3 +25,4 @@ Route::get('/wong', function() {
 Route::get('/marzan', function() {
     return view('marzan');
 });
+
