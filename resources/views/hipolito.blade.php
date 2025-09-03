@@ -1,4 +1,4 @@
-<x-layout><!DOCTYPE html>
+<x-navbtn><!DOCTYPE html>
 <html>
 <body class="bg-secondary bg-opacity-50">
 
@@ -18,7 +18,7 @@
     </div>
   </div>
 </div>
-</x-layout>
+</x-navbtn>
 
 
 
