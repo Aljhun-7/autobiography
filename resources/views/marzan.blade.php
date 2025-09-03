@@ -1,4 +1,4 @@
-<x-layout>
+<x-navbtn>
 <header><head>
     <style>
         body {
@@ -113,4 +113,4 @@
 </body>
 </main>
 
-</x-layout>
+</x-navbtn>
