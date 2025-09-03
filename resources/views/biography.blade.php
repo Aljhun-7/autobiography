@@ -5,8 +5,8 @@
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
                     <div class="col px-4">
-                        <a class="card shadow-sm" href="#">
-                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="#" alt="angala"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <a class="card shadow-sm" href="{{ url('angala') }}">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="{{ asset('angala_ab.jpg') }}" alt="angala"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <div class="card-body">
                                 <p class="card-text">Angala, Aljhun</p>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -27,8 +27,8 @@
                         </a>
                     </div>
                     <div class="col px-4">
-                        <a class="card shadow-sm" href="#">
-                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="{{ asset('asset/jd.jpg') }}" alt="marzan"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <a class="card shadow-sm" href="{{ url('marzan') }}">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="{{ asset('jd.jpg') }}" alt="marzan"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <div class="card-body">
                                 <p class="card-text">Marzan, Mark Jade</p>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col px-4">
                         <a class="card shadow-sm" href="{{ url('wong') }}">
-                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="{{ asset('asset/wong_id_photo.jpg') }}" alt="wong"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="225" src="{{ asset('wong_id_photo.jpg') }}" alt="wong"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <div class="card-body">
                                 <p class="card-text">Wong, Alyza Kaye</p>
                                 <div class="d-flex justify-content-between align-items-center">
