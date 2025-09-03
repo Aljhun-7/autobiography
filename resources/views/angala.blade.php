@@ -4,7 +4,7 @@
 		<div class="card mb-md-3 rounded-pill p-4 shadow-lg border-3 border-success" style="max-width: 540px;">
 			<div class="row g-0">
 			    <div class="col-md-4">
-			    	<img src="{{ asset('asset/angala_ab.jpg') }}" class="img-fluid rounded-circle border-2 border-success border-opacity-75" alt="aljhun pic">
+			    	<img src="{{ asset('angala_ab.jpg') }}" class="img-fluid rounded-circle border-2 border-success border-opacity-75" alt="aljhun pic">
 			    </div>
 			    <div class="col-md-8">
 			  		<div class="card-body">
