@@ -67,7 +67,7 @@
     <body>
 
     <header>
-        <img src="{{ asset('asset/jd.jpg') }}" alt="My Profile Picture">
+        <img src="{{ asset('jd.jpg') }}" alt="My Profile Picture">
         <h1>Mark Jade L. Marzan</h1>
         <p>3rd Year BSIT Student | ISPSC (Tagudin, Ilocos Sur)</p>
     </header>
