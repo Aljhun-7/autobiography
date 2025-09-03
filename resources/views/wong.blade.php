@@ -46,7 +46,7 @@
 <body>
 <div style="margin: 100px">
     <center>
-        <img src="{{ asset('asset/wong_id_photo.jpg') }}" alt="Profile Picture" height="200" width="160">
+        <img src="{{ asset('wong_id_photo.jpg') }}" alt="Profile Picture" height="200" width="160">
         <h3>I.T Student</h3>
     </center>
 
