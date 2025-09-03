@@ -6,12 +6,12 @@ Route::get('/', function() {
     return view('index');
 });
 
-Route::get('/index', function() {
-    return view('index');
-});
-
 Route::get('/biography', function() {
     return view('biography');
+});
+
+Route::get('/angala', function() {
+    return view('angala');
 });
 
 Route::get('/hipolito', function() {
