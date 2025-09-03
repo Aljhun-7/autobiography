@@ -5,7 +5,7 @@
 <div class="card mb-3 p-md-5 m-md-5 rounded-pill shadow-lg border-4 border-dark border-opacity-75" style="max-width: 1280px;">
   <div class="row g-0">
     <div class="col-md-4 ps-md-5">
-      <img src="{{ asset('asset/hipolito_ab.jpg') }}" class="img-fluid rounded-circle shadow-lg ms-md-5 mt-md-4 border-4" alt="Charlene V. Hipolito" height="230" width="230">
+      <img src="{{ asset('hipolito_ab.jpg') }}" class="img-fluid rounded-circle shadow-lg ms-md-5 mt-md-4 border-4" alt="Charlene V. Hipolito" height="230" width="230">
     </div>
     <div class="col-md-8 py-md-3">
       <div class="card-body me-md-5">
